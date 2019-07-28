@@ -490,24 +490,32 @@ label{
 }
 
 label[for="name"]{
-    left: calc(50% - 31px);
-     -webkit-calc(50% - 31px);
+    left: 920px;
+    left: calc (50% - 31px);
+    left:-moz-calc (50% - 31px);
+    left:-webkit-calc(50% - 31px);
 }
 
 label[for="mail"]{
-    left: calc(50% - 83px);
+    left: 867px;
+    left: calc (50% - 83px);
+    left:-moz-calc (50% - 83px);
+    left: -webkit-calc(50% - 83px);
 }
 
 label[for="message"]{
     display: block;
     position: absolute;
-    left: calc(50% - 49px);
+    left: 900px;
+    left: calc (50% - 49px);
+    left:-moz-calc (50% - 49px);
+    left: -webkit-calc(50% - 49px);
     top: 70px;
     margin: 0 auto;
     opacity: 0.55;
 }
 .contact-form-message{
-    padding: 110px 0px 0 0px;
+    padding: 110px 0 0 0;
     position: relative;
 }
 
@@ -526,11 +534,11 @@ label[for="message"]{
     line-height: 1.4;
     text-align: center;
     vertical-align: text-bottom;
-    max-width: 1000px;
+    width: 1000px;
     height: 120px;
     resize: none;
     overflow: hidden;
-    padding: 10px 22vw;
+    padding: 10px;
 }
 
 .contact-form input:focus,
