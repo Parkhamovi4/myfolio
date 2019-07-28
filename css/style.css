@@ -377,74 +377,13 @@ h1{
     margin: 0 auto;
 }
 
-.flex-work{
-width: 100%;
-height: auto;
-display: -webkit-box;
-display: -ms-flexbox;
-display: flex;
--webkit-box-orient: horizontal;
--webkit-box-direction: normal;
-    -ms-flex-flow: row wrap;
-        flex-flow: row wrap;
--webkit-box-pack: center;
-    -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-padding-top: 35px;
-}
 
-.work-box{
-    position: relative;
-    overflow: hidden;
-}
 
-.work-box img{
-    width: 100%;
-    z-index: 1;
-}
 
-.work-box-text{
-    position: absolute;
-    top: calc(50% - 78px);
-    left: calc(50% - 104px);
-    width: 65%;
-    height: 65%;
-    margin: 0 auto;
-    z-index: 2;
-    background-color:rgba(37, 159, 154, 0.4);
-    text-align: center;
-    color: #fff;
-    text-decoration: none;
-    opacity: 0;
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-}
 
-.work-box-text:hover{
-    opacity: 1;
-    -webkit-transition: 0.3s ease-out;
-    transition: 0.3s ease-out;
-    cursor: pointer;
-}
 
-.work-box-text>h4{
-    padding-bottom: 4px;
-    font-size: 21px;
-    margin: 11px;
-}
 
-.work-box-text>span{
-    display: block;
-    font-size: 17px;
-    line-height: 29px;
-    padding: 0 13px;
-    margin: 2px auto;
-}
+
 
 
 /*PAGE CONTACT*/
