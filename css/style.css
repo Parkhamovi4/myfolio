@@ -15,6 +15,7 @@ a{
 .wrap{
     max-width: 1350px;
     margin: 0 auto;
+    text-align: center;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -95,8 +96,7 @@ header{
 
 .modal{
     display: none;
-    position: -webkit-sticky;
-    position: sticky;
+    position: fixed;
     max-width: 300px;
     margin: 0 auto;
     left: 0;
@@ -377,74 +377,13 @@ h1{
     margin: 0 auto;
 }
 
-.flex-work{
-width: 100%;
-height: auto;
-display: -webkit-box;
-display: -ms-flexbox;
-display: flex;
--webkit-box-orient: horizontal;
--webkit-box-direction: normal;
-    -ms-flex-flow: row wrap;
-        flex-flow: row wrap;
--webkit-box-pack: center;
-    -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-padding-top: 35px;
-}
 
-.work-box{
-    position: relative;
-    overflow: hidden;
-}
 
-.work-box img{
-    width: 100%;
-    z-index: 1;
-}
 
-.work-box-text{
-    position: absolute;
-    top: calc(50% - 78px);
-    left: calc(50% - 104px);
-    width: 65%;
-    height: 65%;
-    margin: 0 auto;
-    z-index: 2;
-    background-color:rgba(37, 159, 154, 0.4);
-    text-align: center;
-    color: #fff;
-    text-decoration: none;
-    opacity: 0;
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-}
 
-.work-box-text:hover{
-    opacity: 1;
-    -webkit-transition: 0.3s ease-out;
-    transition: 0.3s ease-out;
-    cursor: pointer;
-}
 
-.work-box-text>h4{
-    padding-bottom: 4px;
-    font-size: 21px;
-    margin: 11px;
-}
 
-.work-box-text>span{
-    display: block;
-    font-size: 17px;
-    line-height: 29px;
-    padding: 0 13px;
-    margin: 2px auto;
-}
+
 
 
 /*PAGE CONTACT*/
@@ -534,7 +473,7 @@ label[for="message"]{
     line-height: 1.4;
     text-align: center;
     vertical-align: text-bottom;
-    width: 1000px;
+    width: 70%;
     height: 120px;
     resize: none;
     overflow: hidden;
@@ -562,7 +501,7 @@ footer{
 
 .footer-text{
     position: absolute;
-    left: 50px;
+    left: 225px;
     top: 17px;
     font-size: 18px;
     font-weight: 100;
@@ -603,7 +542,7 @@ footer{
     opacity:0.3;
     position:fixed;
     bottom:3.7vw;
-    right:5vw;
+    right:9vw;
     display:none;
     text-indent:-9999px;
     background: url(../img/icon_top.png) no-repeat;

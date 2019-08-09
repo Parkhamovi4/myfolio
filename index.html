@@ -15,6 +15,7 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/blueimp-gallery.min.css">
 
     <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png"
         data-mce-href="img/favicon/apple-touch-icon-57x57.png">
@@ -43,7 +44,7 @@
     <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16"
         data-mce-href="img/favicon/favicon-16x16.png">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
 
     <title>MyFolio</title>
 
@@ -72,17 +73,9 @@
                 </svg>
             </button>
         </div>
-        <div class="modal">
-            <button type="button" class="btn-close"><span>&times;</span></button>
-            <ul class="nav-modal">
-                <li><a href="#page-header" class="nav-item">home</a></li>
-                <li><a href="#page-about" class="nav-item">about me</a></li>
-                <li><a href="#page-services" class="nav-item">services</a></li>
-                <li><a href="#page-work" class="nav-item">my work</a></li>
-                <li><a href="#page-contakt" class="nav-item">contact me</a></li>
-            </ul>
-        </div>
+
     </header>
+
     <div id="page-header">
         <div class="wrap">
             <div class="text-header">
@@ -170,79 +163,70 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed Lorem ipsum dolor sit amet, consectetur
                 adipisicing elit,consectetur adipisicing elit consectetur adipisicing elit</p>
 
-            <div class="flex-work">
-                <div class="work-box">
-                    <img src="img/work-1.png" alt="glass">
-                    <div class="work-box-text">
-                        <h4>Title goes here</h4>
-                        <span>onsectetur adipisicing elit, sedo eiusmod tempor incidi </span>
-                    </div>
-                </div>
-                <div class="work-box">
-                    <img src="img/work-2.png" alt="glass">
-                    <div class="work-box-text">
-                        <h4>Title goes here</h4>
-                        <span>onsectetur adipisicing elit, sedo eiusmod tempor incidi </span>
-                    </div>
-                </div>
-                <div class="work-box">
-                    <img src="img/work-3.png" alt="glass">
-                    <div class="work-box-text">
-                        <h4>Title goes here</h4>
-                        <span>onsectetur adipisicing elit, sedo eiusmod tempor incidi </span>
-                    </div>
-                </div>
-                <div class="work-box">
-                    <img src="img/work-4.png" alt="glass">
-                    <div class="work-box-text">
-                        <h4>Title goes here</h4>
-                        <span>onsectetur adipisicing elit, sedo eiusmod tempor incidi </span>
-                    </div>
-                </div>
-                <div class="work-box">
-                    <img src="img/work-5.png" alt="glass">
-                    <div class="work-box-text">
-                        <h4>Title goes here</h4>
-                        <span>onsectetur adipisicing elit, sedo eiusmod tempor incidi </span>
-                    </div>
-                </div>
-                <div class="work-box">
-                    <img src="img/work-6.png" alt="">
-                    <div class="work-box-text">
-                        <h4>Title goes here</h4>
-                        <span>onsectetur adipisicing elit, sedo eiusmod tempor incidi </span>
-                    </div>
-                </div>
-                <div class="work-box">
-                    <img src="img/work-7.png" alt="glass">
-                    <div class="work-box-text">
-                        <h4>Title goes here</h4>
-                        <span>onsectetur adipisicing elit, sedo eiusmod tempor incidi </span>
-                    </div>
-                </div>
-                <div class="work-box">
-                    <img src="img/work-8.png" alt="glass">
-                    <div class="work-box-text">
-                        <h4>Title goes here</h4>
-                        <span>onsectetur adipisicing elit, sedo eiusmod tempor incidi </span>
-                    </div>
-                </div>
-                <div class="work-box">
-                    <img src="img/work-8.png" alt="glass">
-                    <div class="work-box-text">
-                        <h4>Title goes here</h4>
-                        <span>onsectetur adipisicing elit, sedo eiusmod tempor incidi </span>
-                    </div>
-                </div>
-                <div class="work-box">
-                    <img src="img/work-2.png" alt="glass">
-                    <div class="work-box-text">
-                        <h4>Title goes here</h4>
-                        <span>onsectetur adipisicing elit, sedo eiusmod tempor incidi </span>
-                    </div>
-                </div>
 
+            <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+                <div class="slides"></div>
+                <h3 class="title-h3"></h3>
+                <a class="prev">‹</a>
+                <a class="next">›</a>
+                <a class="close">×</a>
+
+                <ol class="indicator"></ol>
             </div>
+
+
+            <div id="links">
+
+                <a href="img/work-1.png" title="glass">
+                    <img src="img/trumbnails/work-1.png" alt="glass">
+                </a>
+                <a href="img/work-2.png" title="green">
+                    <img src="img/trumbnails/work-2.png" alt="green">
+                </a>
+                <a href="img/work-3.png" title="car">
+                    <img src="img/trumbnails/work-3.png" alt="car">
+                </a>
+                <a href="img/work-4.png" title="bird">
+                    <img src="img/trumbnails/work-4.png" alt="bird">
+                </a>
+                <a href="img/work-5.png" title="banana">
+                    <img src="img/trumbnails/work-5.png" alt="banana">
+                </a>
+                <a href="img/work-6.png" title="dog">
+                    <img src="img/trumbnails/work-6.png" alt="dog">
+                </a>
+                <a href="img/work-7.png" title="heare">
+                    <img src="img/trumbnails/work-7.png" alt="heare">
+                </a>
+                <a href="img/work-8.png" title="sity">
+                    <img src="img/trumbnails/work-8.png" alt="sity">
+                </a>
+                <a href="img/work-1.png" title="glass">
+                    <img src="img/trumbnails/work-1.png" alt="glass">
+                </a>
+                <a href="img/work-2.png" title="green">
+                    <img src="img/trumbnails/work-2.png" alt="green">
+                </a>
+                <a href="img/work-3.png" title="car">
+                    <img src="img/trumbnails/work-3.png" alt="car">
+                </a>
+                <a href="img/work-4.png" title="bird">
+                    <img src="img/trumbnails/work-4.png" alt="bird">
+                </a>
+                <a href="img/work-5.png" title="banana">
+                    <img src="img/trumbnails/work-5.png" alt="banana">
+                </a>
+                <a href="img/work-6.png" title="dog">
+                    <img src="img/trumbnails/work-6.png" alt="dog">
+                </a>
+                <a href="img/work-7.png" title="heare">
+                    <img src="img/trumbnails/work-7.png" alt="heare">
+                </a>
+                <a href="img/work-8.png" title="sity">
+                    <img src="img/trumbnails/work-8.png" alt="sity">
+                </a>
+            </div>
+
         </div>
     </div>
     <div id="page-contakt">
@@ -281,36 +265,26 @@
         </div>
 
     </footer>
-
+    <div class="modal">
+        <button type="button" class="btn-close"><span>&times;</span></button>
+        <ul class="nav-modal">
+            <li><a href="#page-header" class="nav-item">home</a></li>
+            <li><a href="#page-about" class="nav-item">about me</a></li>
+            <li><a href="#page-services" class="nav-item">services</a></li>
+            <li><a href="#page-work" class="nav-item">my work</a></li>
+            <li><a href="#page-contakt" class="nav-item">contact me</a></li>
+        </ul>
+    </div>
     <a href="#" class="scrollup">Наверх</a>
 
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $(window).scroll(function () {
-                if ($(this).scrollTop() > 100) {
-                    $('.scrollup').fadeIn();
-                } else {
-                    $('.scrollup').fadeOut();
-                }
-            });
+    <script src="js/blueimp-gallery.min.js"></script>
 
-            $('.scrollup').click(function () {
-                $("html, body").animate({ scrollTop: 0 }, 600);
-                return false;
-            });
-        });
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 
-    <script>
-        $(document).ready(function () {
-            $(".btn-menu").click(function () {
-                $(".modal").show()
-            })
-            $(".btn-close").click(function () {
-                $(".modal").hide()
-            })
-        });
-    </script>
+    <script src="./js/file.js"></script>
+
+
+
 </body>
 
 </html>
